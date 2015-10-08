@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "custom-table-with-selects",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KoltsovaSvetlana/Custom-table-with-selects.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KoltsovaSvetlana/Custom-table-with-selects/issues"
+  },
+  "homepage": "https://github.com/KoltsovaSvetlana/Custom-table-with-selects#readme",
+  "dependencies": {
+    "grunt-cli": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-watch": "latest"
+  }
+}
