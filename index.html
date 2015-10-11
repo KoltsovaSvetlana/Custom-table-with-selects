@@ -2,9 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Table with selects</title>
+    <link rel="stylesheet" href="public/css/style.css"/>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="public/js/main.min.js"></script>
 </head>
-<body>
-
+<body data-ng-app="tableApp">
+    <table data-ng-controller="tableCtrl">
+        <tr data-ng-repeat="row in table">
+            <td data-ng-repeat="item in row">
+                {{item.name}}
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
