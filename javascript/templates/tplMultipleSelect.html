@@ -1,0 +1,8 @@
+<div class="select_label" data-ng-click="openList($event);">
+    Select an option
+</div>
+<ul class="select_list">
+    <li data-ng-repeat="option in optionList">
+        <label><input data-ng-model="option.selected" type="checkbox"/>{{option.label}}</label>
+    </li>
+</ul>

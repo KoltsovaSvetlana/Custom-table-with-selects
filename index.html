@@ -11,7 +11,7 @@
     <table data-ng-controller="tableCtrl">
         <tr data-ng-repeat="row in table">
             <td data-ng-repeat="item in row">
-                {{item.name}}
+                <multiple-select data-ng-class="{'open': (isOpen), 'close': (!isOpen)}"></multiple-select>
             </td>
         </tr>
     </table>

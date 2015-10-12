@@ -6,10 +6,12 @@ module.exports = function(grunt) {
         concat: {
             js: {
                 options: {
-                    separator: ';'
+                    separator: '\n'
                 },
                 src: [
-                    'javascript/*.js'
+                    'javascript/*.js',
+                    'javascript/controllers/*.js',
+                    'javascript/directives/*.js'
                 ],
                 dest: 'public/js/main.min.js'
             },
